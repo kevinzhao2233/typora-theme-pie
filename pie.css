@@ -742,8 +742,34 @@ tt {
   color: #22a2c9;
 }
 
+/* 任务列表小方框 */
 .md-task-list-item > input {
   margin-left: -1.3em;
+  margin-top: 0.3rem;
+  -webkit-appearance: none;
+}
+
+.md-task-list-item > input:before {
+  content: "";
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.875rem;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--mid-1);
+  border-radius: 2px;
+  border: 1px solid var(--main-4);
+  margin-top: -0.4rem;
+  transition: all 0.2s linear;
+}
+
+.md-task-list-item > input:checked:before, .md-task-list-item > input[checked]:before {
+  content: '\2714';
+  font-size: 0.625rem;
+  color: var(--mid-1);
+  border: 1px solid var(--main-6);
+  background-color: var(--main-6);
 }
 
 @media print {
@@ -808,6 +834,11 @@ tt {
 
 .md-image img {
   border-radius: 4px;
+}
+
+/* 当 “![shadow-随便写]()”写时，会有阴影 */
+.md-image img[alt|="shadow"] {
+  box-shadow: 0 4px 24px -6px #ddd;
 }
 
 .md-image > .md-meta {
