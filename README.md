@@ -1,23 +1,25 @@
 # typora-theme-pie
-> 一个`typora`主题，具有[少数派](http://www.sspai.com)和 [Misty](https://github.com/etigerstudio/typora-misty-theme) 的风格。
+> A `typora` theme with [sspai.com](http://www.sspai.com) and [Misty](https://github.com/etigerstudio/typora-misty-theme) style.
 
-## 为什么叫 `pie`
+English | [简体中文](./README_CN.md)
 
-`pie` 的意思是 “馅饼” ，馅饼里有非常多的馅料，而这个主题正是由多种 `馅料` 组合而成的。下面是几处灵感来源，首先对你们表示感谢
+## Why `pie`
 
-- :ghost: ​[少数派](http://www.sspai.com) 给我提供了颜色灵感和`引用块`的灵感
-- :tada: [typora-misty-theme](https://github.com/etigerstudio/typora-misty-theme) 给我提供了`标题` 的灵感
-- :santa: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) 给我提供了字体的灵感，事实上我用的就是它所使用的字体
-- :beers: ​[material-palenight](https://codemirror.net/theme/material-palenight.css) 是我最喜欢的代码主题，我也将其加入了进来
+There are a lot of fillings in the `pie`, and this theme is made up of a variety of `fillings`. Here are a few inspirations, thank you in advance
 
-## 安装主题
+- :ghost: [sspai.com](http://www.sspai.com) gave me inspiration for color and `blockquote` 
+- :tada: [typora-misty-theme](https://github.com/etigerstudio/typora-misty-theme) gave me inspiration for the `title` 
+- :santa: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme)  provided me with inspiration for `fonts`, in fact I use the fonts it uses
+- :beers: [material-palenight](https://codemirror.net/theme/material-palenight.css) is my favorite code theme, and I have also included it
 
-1. 下载本主题中的 `pie.css` 文件和 `pie` 文件夹，**`pie` 文件夹不是必须的，这里面仅仅包含了所需的字体**；
-2. 打开 Typora，点击“**偏好设置**（`ctrl + ,`）” => “**外观**” => “**打开主题文件夹**”按钮，会弹出 Typora 的主题文件夹；
-3. 将下载好的`pie.css`和`pie`文件夹放到 Typora 的主题文件夹中；
-4. 关闭并重新打开 Typora，从菜单栏中选择 “**主题**” => “**Pie**” 即可。
+## Install theme
 
-## 效果图
+1. Download the `pie.css` file and `pie` folder in this theme. **The `pie` folder is not necessary, it only contains the required fonts;**
+2. Open Typora, click "**Preferences** `(ctrl +,)`" => "**Appearance**" => "**Open Theme Folder**" button, the theme folder of Typora will pop up;
+3. Put the downloaded `pie.css` and `pie` folders into the theme folder of Typora;
+4. Close and reopen Typora, select "**Theme**" => "**Pie**" from the menu bar.
+
+## Effect map
 
 ![image-20200323191439554](README.assets/image-20200323191439554.png)
 
