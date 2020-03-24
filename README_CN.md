@@ -13,6 +13,11 @@
 - :santa: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) 给我提供了字体的灵感，事实上我用的就是它所使用的字体
 - :beers: ​[material-palenight](https://codemirror.net/theme/material-palenight.css) 是我最喜欢的代码主题，我也将其加入了进来
 
+## 特性
+
+- [x]  :rocket: 优化的任务列表样式，就像下面第二张图中的
+- [x]  :sailboat: ​可选的图片阴影样式，如果` ![shadow-other thing]()`这样在`[]` 中加入`shadow` 前缀，就会为图片添加阴影
+
 ## 安装主题
 
 1. 下载本主题中的 `pie.css` 文件和 `pie` 文件夹，**`pie` 文件夹不是必须的，这里面仅仅包含了所需的字体**；
@@ -24,4 +29,4 @@
 
 ![image-20200323191439554](README_CN.assets/image-20200323191439554.png)
 
-![image-20200323190636164](README_CN.assets/image-20200323190636164.png)
+![image-20200324170435492](README_CN.assets/image-20200324170435492.png)
