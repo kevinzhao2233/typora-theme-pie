@@ -342,6 +342,10 @@ body {
   word-spacing: 0.05rem;
 }
 
+#write ul {
+  line-height: 2rem;
+}
+
 #write ol li {
   text-indent: 0.5rem;
 }
@@ -847,6 +851,13 @@ tt {
   padding: 2px 0 0 4px;
   font-size: 0.9em;
   color: inherit;
+}
+
+/* emoji */
+.md-emoji-span:before {
+  content: attr(data-emoji);
+  font-weight: 400;
+  vertical-align: inherit;
 }
 
 .md-tag {
