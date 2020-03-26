@@ -1,6 +1,10 @@
 :root {
   --side-bar-bg-color: #fff;
   --control-text-color: #777;
+  --select-text-bg-color: #ffafa3;
+  --active-file-text-color: #262626;
+  /* --active-file-bg-color: #fff3f0; */
+  --primary-color: #f22f27;
 
   /* 中性色 */
   --mid-1: #ffffff;
@@ -598,7 +602,7 @@ blockquote {
   color: var(--mid-7);
   font-size: 1em;
   font-style: normal;
-  padding: 24px 16px 4px;
+  padding: 24px 16px 12px;
   margin: 24px 0 36px;
   line-height: 1.6;
   text-indent: 0;
@@ -725,11 +729,12 @@ tt {
 
 /* heighlight. */
 #write mark {
-  background-color: #ebffeb;
+  background-color: var(--main-4);
   border-radius: 2px;
   padding: 2px 4px;
   margin: 0 2px;
   color: #222;
+  border-radius: 4px;
   font-weight: 500;
 }
 
@@ -754,7 +759,7 @@ tt {
 }
 
 .md-task-list-item > input:before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 0.875rem;
   height: 0.875rem;
@@ -768,7 +773,8 @@ tt {
   transition: all 0.2s linear;
 }
 
-.md-task-list-item > input:checked:before, .md-task-list-item > input[checked]:before {
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before {
   content: '\2714';
   font-size: 0.625rem;
   color: var(--mid-1);
@@ -841,7 +847,7 @@ tt {
 }
 
 /* 当 “![shadow-随便写]()”写时，会有阴影 */
-.md-image img[alt|="shadow"] {
+.md-image img[alt|='shadow'] {
   box-shadow: 0 4px 24px -6px #ddd;
 }
 
@@ -918,6 +924,7 @@ footer {
 .html-for-mac .context-menu {
   --item-hover-bg-color: #e6f0fe;
 }
+
 
 /* ----------------- 代码块主题 ----------------- */
 
