@@ -691,15 +691,12 @@ table tr td:last-child {
 /* 代码块 */
 #write .md-fences {
   -webkit-font-smoothing: initial;
-  margin: 0.8rem 0 !important;
-  padding: 1rem 0 !important;
+  margin: 2rem 0 !important;
   line-height: 1.55rem;
-  border-radius: 4px;
   font-family: Source Code Pro, Roboto Mono, Source Sans Pro, 'Microsoft YaHei', '微软雅黑' !important;
   font-size: 0.9rem;
   word-wrap: normal;
-  caret-color: var(--mid-4);
-  color: var(--mid-4);
+  color: var(--mid-10);
 }
 
 #write .CodeMirror-wrap .CodeMirror-code pre {
@@ -797,12 +794,9 @@ tt {
   }
 }
 
-/* .md-fences {
-  background-color: #f8f8f8;
-} */
+
 
 #write pre.md-meta-block {
-  padding: 1rem;
   font-size: 85%;
   line-height: 1.45;
   background-color: #f7f7f7;
@@ -928,13 +922,12 @@ footer {
 
 /* ----------------- 代码块主题 ----------------- */
 
-pre {
-  background-color: #292d3e !important;
-}
 
 .cm-s-inner.CodeMirror {
+  padding: 0.8rem 0 1rem;
   background-color: #292d3e;
   color: #a6accd;
+  border-radius: 4px;
 }
 
 .cm-s-inner .CodeMirror-gutters {
