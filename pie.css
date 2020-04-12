@@ -3,6 +3,7 @@
   --control-text-color: #777;
   --select-text-bg-color: #ffafa3;
   --active-file-text-color: #262626;
+  --active-file-border-color: #f22f27;
   /* --active-file-bg-color: #fff3f0; */
   --primary-color: #f22f27;
 
@@ -794,9 +795,12 @@ tt {
   }
 }
 
-
+/* .md-fences {
+  background-color: #f8f8f8;
+} */
 
 #write pre.md-meta-block {
+  /* padding: 1rem; */
   font-size: 85%;
   line-height: 1.45;
   background-color: #f7f7f7;
@@ -919,9 +923,20 @@ footer {
   --item-hover-bg-color: #e6f0fe;
 }
 
+/* 侧边栏 */
+.file-list-item.active {
+  background: var(--active-file-bg-color);
+  color: var(--active-file-text-color);
+  border-left: 4px solid var(--main-6);
+}
+
+.file-tree-node.active > .file-node-background {
+  background-color: var(--active-file-bg-color);
+  border-left: 4px solid var(--main-6);
+  border-color: var(--active-file-border-color);
+}
 
 /* ----------------- 代码块主题 ----------------- */
-
 
 .cm-s-inner.CodeMirror {
   padding: 0.8rem 0 1rem;
