@@ -382,6 +382,13 @@ a {
   text-decoration: none;
 }
 
+/* 目录 */
+#write a.md-toc-inner {
+  line-height: 1.6;
+  white-space: pre-line;
+  border-bottom: none;
+}
+
 #write a:hover {
   border-bottom: 2px solid var(--main-6);
   color: var(--main-7);
@@ -723,6 +730,17 @@ tt {
 #write .md-footnote {
   color: var(--main-5);
   background-color: var(--main-1);
+}
+
+/* 流程图块 */
+#write .md-diagram-panel {
+  position: relative;
+  margin: 24px auto;
+}
+
+#write .md-focus .md-diagram-panel {
+  border: 1px solid var(--main-4);
+  border-radius: 4px;
 }
 
 /* heighlight. */
