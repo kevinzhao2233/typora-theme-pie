@@ -347,12 +347,16 @@ body {
   word-spacing: 0.05rem;
 }
 
-#write ul {
-  line-height: 2rem;
+#write ol li {
+  margin-left: -4px;
+}
+#write ol li p {
+  margin-left: 4px;
 }
 
-#write ol li {
-  text-indent: 0.5rem;
+
+#write ul {
+  line-height: 2rem;
 }
 
 #write > ul:first-child,
@@ -699,7 +703,7 @@ table tr td:last-child {
 /* 代码块 */
 #write .md-fences {
   -webkit-font-smoothing: initial;
-  margin: 2rem 0 !important;
+  margin: 1.8rem 0 2rem !important;
   line-height: 1.55rem;
   font-family: Source Code Pro, Roboto Mono, Source Sans Pro, 'Microsoft YaHei', '微软雅黑' !important;
   font-size: 0.9rem;
