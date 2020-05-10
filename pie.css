@@ -327,7 +327,7 @@ html {
 }
 
 body {
-  font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif !important;
+  font-family: Source Sans Pro, 小米兰亭, Helvetica Neue, Arial, sans-serif !important;
   color: var(--mid-10);
   -webkit-font-smoothing: antialiased;
   line-height: 1.8rem;
@@ -467,24 +467,22 @@ h2 {
   border-left: 6px solid var(--main-6);
 }
 
-h3 {  display: flex;  align-items: center;
-  margin: 1.6em auto 1.2em;  padding-left: 0.5em;
+h3 {
+  margin: 1.6em auto 1.2em;
   font-size: 1.35em;
   line-height: 1.43;
 }
 
 /*--- 三级标题左边的小圆点 ---*/
-h3:after {
+h3:before {
   content: '';
   border-radius: 50%;
   background-color: var(--main-5);
-  position: absolute;
-  left: 0;
   display: inline-block;
   width: 6px;
   height: 6px;
   vertical-align: middle;  line-height: 1.43;
-  /* margin-bottom: 0.18em; */
+  margin-bottom: 0.18em;
   margin-right: 6px;
 }
 
@@ -497,13 +495,13 @@ h3:after {
   color: var(--mid-1);
 }
 
-h4 {  display: flex;  align-items: center;
-  margin-top: 1.4em;  padding-left: 0.6em;
+h4 {
+  margin-top: 1.4em;
   font-size: 1.2em;
 }
 
 /*--- 四级标题左边的小短线 ---*/
-h4:after {  position: absolute;  left: 0;
+h4:before {
   background-color: var(--main-4);
   content: '';
   width: 6px;
