@@ -301,14 +301,16 @@
   --window-border: #393550;
   --border-color: #393550;
   --text-color: #d9d9d9;
+  --rawblock-edit-panel-bd: #1f2335;
+  --focus-ring-color: #ff5d52;
 
   /* 中性色 */
   --mid-13: #ffffff;
   --mid-12: #f5f5f5;
   --mid-11: #f0f0f0;
-  --mid-10: #d9d9d9;
+  --mid-10: #dedede;
   --mid-9: #bfbfbf;
-  --mid-8: #8c8c8c;
+  --mid-8: #a5a5a5;
   --mid-7: #595959;
   --mid-6: #434343;
   --mid-5: #262626;
@@ -975,6 +977,14 @@ footer {
   color: var(--item-hover-text-color);
 }
 
+/* 退出显示源码 */
+.typora-sourceview-on #toggle-sourceview-btn {
+  background: var(--bg-color);
+}
+.typora-sourceview-on #toggle-sourceview-btn:hover {
+  background: var(--item-hover-bg-color);
+}
+
 /* 暂时只直到作用于 显示隐藏侧边栏按钮 */
 #outline-btn:hover {
   color: var(--item-hover-text-color);
@@ -987,6 +997,69 @@ footer {
 ::-webkit-scrollbar-thumb:active {
   background-color: #ffffff55;
 }
+
+/* 设置面板 */
+.nav-group-item.active,
+.nav-group-item:active {
+  background-color: var(--item-hover-bg-color) !important;
+}
+
+.megamenu-content {
+  /* background: linear-gradient(to bottom, #272b40ff, #272b4000),
+    url(cubes.png); */
+  background: var(--bg-color);
+}
+
+.megamenu-opened header {
+  background-image: none;
+}
+
+#megamenu-menu-sidebar {
+  background-color: var(--bg-color)
+}
+
+#recent-file-panel-action-btn {
+  background-color: var(--bg-color);
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+  background-color: var(--bg-color);
+}
+
+.megamenu-menu-panel .btn:hover {
+  background-color: var(--item-hover-bg-color);
+  color: var(--item-hover-text-color);
+}
+
+
+.btn:focus {
+  outline-color: var(--focus-ring-color);
+}
+
+button.btn-default:not([disabled]):hover,
+.btn-default:not([disabled]):hover {
+  background-color: var(--item-hover-bg-color);
+  background-image: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ----------------- 代码块主题 ----------------- */
 
