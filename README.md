@@ -14,6 +14,7 @@ There are a lot of fillings in the `pie`, and this theme is made up of a variety
 
 ## Feature
 
+- [x] :baby_chick: Dark theme
 - [x] :rocket: Optimized task list style, as shown in the second picture below
 - [x] :sailboat: ​Optional image shadow style, if you add `shadow` prefix to` [] `like`![Shadow-other thing]() `, it will add shadow
 
@@ -29,3 +30,7 @@ There are a lot of fillings in the `pie`, and this theme is made up of a variety
 ![image-20200323191439554](README.assets/image-20200323191439554.png)
 
 ![image-20200324170435492](README.assets/image-20200324170435492.png)
+
+![Snipaste_2020-05-22_17-47-12](README.assets/Snipaste_2020-05-22_17-47-12.png)
+
+![Snipaste_2020-05-22_17-46-40](README.assets/Snipaste_2020-05-22_17-46-40.png)

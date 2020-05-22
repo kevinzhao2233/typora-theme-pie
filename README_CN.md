@@ -15,6 +15,7 @@
 
 ## 特性
 
+- [x]  :baby_chick: 暗黑主题
 - [x]  :rocket: 优化的任务列表样式，就像下面第二张图中的
 - [x]  :sailboat: ​可选的图片阴影样式，如果` ![shadow-other thing]()`这样在`[]` 中加入`shadow` 前缀，就会为图片添加阴影
 
@@ -25,8 +26,12 @@
 3. 将下载好的`pie.css`和`pie`文件夹放到 Typora 的主题文件夹中；
 4. 关闭并重新打开 Typora，从菜单栏中选择 “**主题**” => “**Pie**” 即可。
 
+> 中文用户如果想要更好的体验，建议安装 [更纱黑体](https://github.com/be5invis/Sarasa-Gothic)
+
 ## 效果图
 
 ![image-20200323191439554](README_CN.assets/image-20200323191439554.png)
 
 ![image-20200324170435492](README_CN.assets/image-20200324170435492.png)
+
+![Snipaste_2020-05-22_17-46-40](README_CN.assets/Snipaste_2020-05-22_17-46-40.png)![Snipaste_2020-05-22_17-47-12](README_CN.assets/Snipaste_2020-05-22_17-47-12.png)
