@@ -289,8 +289,8 @@
 :root {
   --side-bar-bg-color: #272b40;
   --control-text-color: #999;
-  --select-text-bg-color: #ffafa3;
-  --select-text-font-color: #d9d9d9;
+  --select-text-bg-color: #ff7a6679;
+  --select-text-font-color: #f0f0f0;
   --active-file-text-color: #f0f0f0;
   --active-file-border-color: #f22f27;
   --active-file-bg-color: #1f2335;
@@ -1015,7 +1015,7 @@ footer {
 }
 
 #megamenu-menu-sidebar {
-  background-color: var(--bg-color)
+  background-color: var(--bg-color);
 }
 
 #recent-file-panel-action-btn {
@@ -1031,7 +1031,6 @@ footer {
   color: var(--item-hover-text-color);
 }
 
-
 .btn:focus {
   outline-color: var(--focus-ring-color);
 }
@@ -1042,31 +1041,12 @@ button.btn-default:not([disabled]):hover,
   background-image: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----------------- 代码块主题 ----------------- */
 
 .cm-s-inner.CodeMirror {
   padding: 0.8rem 0 1rem;
   background-color: #1f2335;
-  color: #a6accd;
+  color: #f0f0f0;
   border-radius: 4px;
 }
 

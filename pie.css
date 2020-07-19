@@ -289,7 +289,7 @@
 :root {
   --side-bar-bg-color: #fff;
   --control-text-color: #777;
-  --select-text-bg-color: #ffafa3;
+  --select-text-bg-color: #faa295;
   --active-file-text-color: #262626;
   --active-file-border-color: #f22f27;
   /* --active-file-bg-color: #fff3f0; */
@@ -955,7 +955,7 @@ footer {
 .cm-s-inner.CodeMirror {
   padding: 0.8rem 0 1rem;
   background-color: #292d3e;
-  color: #a6accd;
+  color: #f0f0f0;
   border-radius: 4px;
 }
 
