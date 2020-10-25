@@ -706,6 +706,7 @@ table tr td:last-child {
 
 #write strong {
   padding: 0 1px;
+  color: #f8f8f8;
 }
 
 #write em {
