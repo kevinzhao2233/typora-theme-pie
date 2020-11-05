@@ -400,6 +400,12 @@ a {
   text-decoration: none;
 }
 
+/* 锚点，typora 无法生成可以点击的锚点，所以这里直接让其不要显示 */
+#write a.md-header-anchor {
+  border: none;
+  font-size: 0;
+}
+
 /* 目录 */
 #write a.md-toc-inner {
   line-height: 1.6;
