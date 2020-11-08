@@ -357,7 +357,6 @@ footer.ty-footer {
 }
 
 #write p {
-  line-height: 1.8rem;
   word-spacing: 0.05rem;
 }
 
@@ -400,8 +399,8 @@ a {
   text-decoration: none;
 }
 
-/* 锚点，typora 无法生成可以点击的锚点，所以这里直接让其不要显示 */
-#write a.md-header-anchor {
+/* 链接内容为空时直接啥也不显示，比如锚点的地方 */
+#write a:empty {
   border: none;
   font-size: 0;
 }
