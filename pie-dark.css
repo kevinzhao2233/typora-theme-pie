@@ -749,7 +749,7 @@ table tr td:last-child {
 #write code,
 tt {
   margin: 0 2px;
-  padding: 2px 4px;
+  padding: 2px 4px 1px;
   border-radius: 3px;
   font-family: 'Roboto Mono', 'Source Sans Pro', 'Microsoft YaHei', '微软雅黑' !important;
   font-size: 0.92rem;
