@@ -757,6 +757,10 @@ tt {
   background-color: #ffb5b333;
 }
 
+#write code {
+  vertical-align: 0.5px;
+}
+
 #write .md-footnote {
   color: var(--main-6);
   background-color: var(--main-1);

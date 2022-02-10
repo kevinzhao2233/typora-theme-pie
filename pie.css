@@ -348,6 +348,7 @@ body {
 
 #write p {
   word-spacing: 0.05rem;
+  text-align: justify;
 }
 
 #write ol li {
@@ -739,6 +740,10 @@ tt {
   color: var(--main-5);
   background-color: var(--main-1);
   border-radius: 3px;
+}
+
+#write code {
+  vertical-align: 0.5px;
 }
 
 #write .md-footnote {
