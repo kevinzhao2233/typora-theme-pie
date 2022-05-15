@@ -5,18 +5,17 @@ English | [简体中文](./README_CN.md)
 
 ## Why `pie`
 
-There are a lot of fillings in the `pie`, and this theme is made up of a variety of `fillings`. Here are a few inspirations, thank you in advance
+There are a lot of fillings in the `pie`, and this theme is made up of a variety of `fillings`. Here are a few inspirations, thank you in advance.
 
-- :ghost: [sspai.com](http://www.sspai.com) gave me inspiration for color and `blockquote` 
-- :tada: [typora-misty-theme](https://github.com/etigerstudio/typora-misty-theme) gave me inspiration for the `title` 
-- :santa: [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme)  provided me with inspiration for `fonts`, in fact I use the fonts it uses
-- :beers: [material-palenight](https://codemirror.net/theme/material-palenight.css) is my favorite code theme, and I have also included it
+- :ghost: [sspai.com](http://www.sspai.com) gave me inspiration for color and `blockquote` ;
+- :tada: [typora-misty-theme](https://github.com/etigerstudio/typora-misty-theme) gave me inspiration for the `title` ;
+- :beers: [material-palenight](https://codemirror.net/theme/material-palenight.css) is my favorite code theme, and I have also included it.
 
 ## Feature
 
-- [x] :baby_chick: Dark theme
-- [x] :rocket: Optimized task list style, as shown in the second picture below
-- [x] :sailboat: ​Optional image shadow style, if you add `shadow` prefix to` [] `like`![Shadow-other thing]() `, it will add shadow
+- [x] :baby_chick: Dark theme;
+- [x] :rocket: Optimized task list style, as shown in the second picture below;
+- [x] :sailboat: ​Optional image shadow style, if you add `shadow` prefix to` [] `like`![Shadow-other thing]() `, it will add shadow.
 
 ## Install theme
 
