@@ -1,40 +1,32 @@
 @include-when-export url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Sans+Pro&display=swap');
 
-/* source-sans-pro-regular - latin */
 @font-face {
   font-family: 'Source Sans Pro';
-  font-weight: 400;
-  src: url('../fonts/source-sans-pro-v21-latin-regular.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('../fonts/source-sans-pro-v21-latin-regular.woff') format('woff'); /* Modern Browsers */
-  font-style: normal;
+  src: url('pie/source-sans-pro-v21.woff2') format('woff2'), url('pie/source-sans-pro-v21.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Fira Code';
   src: url('pie/FiraCode-Light.woff2') format('woff2'), url('pie/FiraCode-Light.woff') format('woff');
   font-weight: 300;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Fira Code';
   src: url('pie/FiraCode-Regular.woff2') format('woff2'), url('pie/FiraCode-Regular.woff') format('woff');
   font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Fira Code';
   src: url('pie/FiraCode-Medium.woff2') format('woff2'), url('pie/FiraCode-Medium.woff') format('woff');
   font-weight: 500;
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'Fira Code';
   src: url('pie/FiraCode-Bold.woff2') format('woff2'), url('pie/FiraCode-Bold.woff') format('woff');
   font-weight: 700;
-  font-style: normal;
 }
 
 :root {
@@ -75,7 +67,7 @@
   --main-10: #590009;
 
   /* 字体 */
-  --font-normal: 'Source Sans Pro', 'MiSans', '等距更纱黑体 SC', 'Helvetica Neue', Arial, sans-serif;
+  --font-normal: 'Source Sans Pro', 'MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
   --font-code: 'Fira Code', Monaco, Consolas, 'MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', sans-serif;
 }
 
