@@ -25,7 +25,7 @@
 3. 将下载好的`pie.css`和`pie`文件夹放到 Typora 的主题文件夹中；
 4. 关闭并重新打开 Typora，从菜单栏中选择 “**主题**” => “**Pie**” 即可。
 
-> 中文用户如果想要更好的体验，建议安装 [更纱黑体](https://github.com/be5invis/Sarasa-Gothic)（适用 1080P 屏幕分辨率）和 [MiSans](https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/font/MiSans/MiSans.zip)（适用 2K 屏幕分辨率）。
+> 中文用户如果想要更好的体验，建议安装 [更纱黑体](https://github.com/be5invis/Sarasa-Gothic)（适用 1080P 屏幕分辨率）和 [MiSans](https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/font/MiSans/MiSans.zip)（适用 2K 及以上屏幕分辨率）。
 
 ## 效果图
 
