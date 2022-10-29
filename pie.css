@@ -30,14 +30,17 @@
 }
 
 :root {
+  --primary-color: #f22f27;
   --side-bar-bg-color: #ffffff;
   --control-text-color: #777777;
   --select-text-bg-color: #faa295;
   --active-file-text-color: #262626;
   --active-file-border-color: #f22f27;
+  --search-select-bg-color: #ff5d52;
+  --search-select-text-color: #ffffff;
 
-  /* --active-file-bg-color: #fff3f0; */
-  --primary-color: #f22f27;
+  --search-hit-bg-color: #ffafa3;
+  --search-hit-text-color: #262626;
 
   /* 中性色 */
   --mid-1: #ffffff;
@@ -649,8 +652,33 @@ tt {
   margin-top: 20px;
 }
 
+#md-notification::before {
+  top: 10px;
+}
+
+.md-lang {
+  color: #b4654d;
+}
+
+.md-search-hit {
+  color: var(--search-hit-text-color);
+  background-color: var(--search-hit-bg-color);
+}
+
+/** focus mode */
+
+.on-focus-mode blockquote {
+  border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+
 .sidebar-tabs {
   border-bottom: none;
+}
+
+.form-control:focus {
+  border-color: var(--active-file-border-color);
+  box-shadow: 0 0 8px #f22f2744;
 }
 
 #typora-quick-open {
@@ -663,16 +691,6 @@ tt {
   border-color: #fefefe #e5e5e5 #e5e5e5 #eeeeee;
   border-style: solid;
   border-width: 1px;
-}
-
-#md-notification::before {
-  top: 10px;
-}
-
-/** focus mode */
-
-.on-focus-mode blockquote {
-  border-left-color: rgba(85, 85, 85, 0.12);
 }
 
 header,
@@ -689,10 +707,6 @@ footer {
 
 .mac-seamless-mode #typora-sidebar {
   background-color: var(--side-bar-bg-color);
-}
-
-.md-lang {
-  color: #b4654d;
 }
 
 .html-for-mac .context-menu {
