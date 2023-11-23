@@ -58,16 +58,16 @@
   --mid-13: #000000;
 
   /* 主题色 */
-  --main-1: #fff3f0;
-  --main-2: #ffd4cc;
-  --main-3: #ffafa3;
-  --main-4: #ff887a;
-  --main-5: #ff5d52;
-  --main-6: #f22f27;
-  --main-7: #cc1616;
-  --main-8: #a60a0f;
-  --main-9: #80010a;
-  --main-10: #590009;
+  --main-1: #fff2f0;
+  --main-2: #ffd6d1;
+  --main-3: #ffb0a8;
+  --main-4: #f27f79;
+  --main-5: #e6514e;
+  --main-6: #da282a;
+  --main-7: #b3171f;
+  --main-8: #893128;
+  --main-9: #66030f;
+  --main-10: #40010b;
 
   /* 字体 */
   --font-normal: 'Source Sans Pro', 'MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
@@ -127,15 +127,16 @@ body > *:last-child {
 a {
   padding: 0 2px;
   font-weight: 500;
-  color: var(--main-6);
+  color: var(--mid-10);
   text-decoration: none;
 }
 
 /* 链接 */
 #write a {
-  color: var(--main-6);
+  color: var(--mid-10);
   text-decoration: none;
   border-bottom: 1px solid var(--main-6);
+  transition: border-bottom 0.2s;
 }
 
 /* 链接内容为空时直接啥也不显示，比如锚点的地方 */
@@ -152,7 +153,6 @@ a {
 }
 
 #write a:hover {
-  color: var(--main-7);
   border-bottom: 2px solid var(--main-6);
 }
 
@@ -384,7 +384,7 @@ blockquote blockquote {
 }
 
 blockquote a {
-  color: var(--main-4);
+  color: var(--mid-7);
 }
 
 /* “ 装饰 */
@@ -480,6 +480,17 @@ table tr td:last-child {
   border-left: 2px solid var(--mid-4);
 }
 
+#write .md-fences .code-tooltip {
+  padding: 2px;
+  border-radius: 4px;
+}
+
+#write .md-fences .code-tooltip .ty-input {
+  height: 18px;
+  margin: 0;
+  border-radius: 3px;
+}
+
 #write code,
 tt {
   padding: 2px 4px 1px;
@@ -528,7 +539,7 @@ tt {
 
 /* 任务列表小方框 */
 .md-task-list-item > input {
-  margin-top: 0.3rem;
+  margin-top: calc(1em - 8px);
   margin-left: -1.3em;
   -webkit-appearance: none;
 }

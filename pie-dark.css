@@ -35,11 +35,11 @@
   --select-text-bg-color: #ff7a6679;
   --select-text-font-color: #f0f0f0;
   --active-file-text-color: #f0f0f0;
-  --active-file-border-color: #f22f27;
+  --active-file-border-color: #da282a;
   --active-file-bg-color: #1f2335;
   --item-hover-bg-color: #3b4057;
   --item-hover-text-color: #f0f0f0;
-  --primary-color: #f22f27;
+  --primary-color: #da282a;
   --bg-color: #272b40;
   --window-border: #393550;
   --border-color: #393550;
@@ -68,16 +68,16 @@
   --mid-1: #000000;
 
   /* 主题色 */
-  --main-10: #ffd4cc;
-  --main-9: #ffafa3;
-  --main-8: #ff887a;
-  --main-7: #ff5d52;
-  --main-6: #f22f27;
-  --main-5: #cc1616;
-  --main-4: #a60a0f;
-  --main-3: #80010a;
-  --main-2: #590009;
-  --main-1: #330007;
+  --main-10: #fff2f0;
+  --main-9: #ffd6d1;
+  --main-8: #ffb0a8;
+  --main-7: #f27f79;
+  --main-6: #e6514e;
+  --main-5: #da282a;
+  --main-4: #b3171f;
+  --main-3: #893128;
+  --main-2: #66030f;
+  --main-1: #40010b;
 
   /* 字体 */
   --font-normal: 'Source Sans Pro', 'MiSans', '等距更纱黑体 SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
@@ -94,7 +94,7 @@ body {
   font-family: var(--font-normal) !important;
   color: var(--mid-10);
   -webkit-font-smoothing: antialiased;
-  line-height: 1.8rem;
+  line-height: 1.875rem;
   letter-spacing: 0;
 }
 
@@ -138,7 +138,7 @@ body > *:last-child {
 }
 
 a {
-  color: var(--main-6);
+  color: var(--mid-10);
   font-weight: 500;
   padding: 0 2px;
   text-decoration: none;
@@ -146,9 +146,10 @@ a {
 
 /* 链接 */
 #write a {
-  border-bottom: 1px solid var(--main-6);
-  color: var(--main-6);
+  border-bottom: 1px solid var(--main-3);
+  color: var(--mid-10);
   text-decoration: none;
+  transition: border-bottom 0.2s;
 }
 
 /* 链接内容为空时直接啥也不显示，比如锚点的地方 */
@@ -165,8 +166,8 @@ a {
 }
 
 #write a:hover {
-  border-bottom: 2px solid var(--main-6);
-  color: var(--main-7);
+  border-bottom: 2px solid var(--main-4);
+  color: var(--mid-10);
 }
 
 h1,
@@ -312,7 +313,7 @@ hr {
   height: 1px;
   padding: 0;
   margin: 46px auto 64px;
-  background-color: var(--main-4);
+  background-color: var(--mid-6);
   border: 0;
   overflow: hidden;
   box-sizing: content-box;
@@ -397,8 +398,8 @@ blockquote blockquote {
   padding-right: 0;
 }
 
-blockquote a {
-  color: var(--main-4);
+#write blockquote a {
+  color: var(--mid-9);
 }
 
 blockquote:before {
@@ -496,6 +497,14 @@ table tr td:last-child {
 
 #write .md-fences .code-tooltip {
   background-color: #1f2335;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+#write .md-fences .code-tooltip .ty-input {
+  height: 18px;
+  margin: 0;
+  border-radius: 3px;
 }
 
 #write code,
@@ -547,7 +556,7 @@ tt {
 /* 任务列表小方框 */
 .md-task-list-item > input {
   margin-left: -1.3em;
-  margin-top: 0.3rem;
+  margin-top: calc(1em - 8px);
   -webkit-appearance: none;
 }
 
@@ -842,11 +851,19 @@ button.btn-default:not([disabled]):hover,
 }
 
 .cm-s-inner div.CodeMirror-selected {
-  background: rgba(113, 124, 180, 0.2);
+  background: var(--select-text-bg-color);
 }
 
 .cm-s-inner.CodeMirror-focused div.CodeMirror-selected {
-  background: rgba(113, 124, 180, 0.2);
+  background: var(--select-text-bg-color) !important;
+}
+
+.CodeMirror-selected,.CodeMirror-selectedtext {
+  background: transparent !important;
+}
+
+#typora-source .CodeMirror-selected {
+  background: var(--select-text-bg-color) !important;
 }
 
 /*
